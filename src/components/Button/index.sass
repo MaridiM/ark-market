@@ -1,0 +1,64 @@
+.btn 
+    width: 100%
+    display: block
+    padding: 0px
+    font-size: 14px
+    margin: 5px 0
+    display: flex
+    align-items: center
+    justify-content: center
+    border: none
+    outline: none
+    letter-spacing: 1.5px
+    background-color: var(--dark)
+    color: var(--light-gray)
+    border-radius: 3px
+    overflow: hidden
+    &:hover 
+        background-color:  rgba(var(--rgb-dark), .9) 
+    &-icon
+        display: flex
+        width: 16px
+        height: 16px
+
+    &-default,
+    &-content
+        width: 100%
+        padding: 16px 32px
+        transition: .4s all
+        border-radius: 3px
+
+
+    &-facebook
+        background-color: var(--facebook-blue)
+        &:hover 
+            background-color: rgba(var(--rgb-facebook-blue), .9) 
+
+    &-google
+        background-color: var(--google-red)
+        &:hover 
+            background-color: rgba(var(--rgb-google-red), .9) 
+
+
+.link 
+    padding: 16px 32px 
+    border-radius: 3px
+    letter-spacing: 1.5px
+    color: var(--font-color)
+    display: block
+    opacity: .6
+    text-align: right
+    text-decoration: none
+    cursor: default
+    font-size: 14px
+    transition: 0.4s ease-in-out
+    box-shadow: 0px 0px .5px .5px rgba(var(--rgb-default), .0)
+
+    &:hover
+        opacity: .8
+        box-shadow: 0px 0px .5px .5px rgba(var(--rgb-default), .1)
+        transition: .4s all
+        color: var(--font-color)
+
+
+    
